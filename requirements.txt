@@ -1,0 +1,3 @@
+python-telegram-bot==8.1.1
+blynkapi==0.1.7
+requests==2.18.4

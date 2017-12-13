@@ -1,0 +1,85 @@
+{
+    "bot_token": "446464549:AAEDuJx4Oa7RwDKKAIhwefNT8VVcWsXt-3s",
+    "telegram_channel_id": 123456789,
+    "blynk_token": "5864ba5bb7ff4203a60217fa1d62d61a",
+    "monitor_interval": 60,
+    "miner_timeout": 5,
+    "tolerance": 5,
+    "temperature": 70,
+    "auto_restart": 1,
+    "restart_after": 600,
+    "miners": [
+        {
+            "name": "Trau01",
+            "host": "192.168.1.11",
+            "port": 3333,
+            "target_eth": 145,
+            "blynk_pin": "D2",
+            "comments": "Trau 01",
+            "maintain": false
+        },
+        {
+            "name": "Trau02",
+            "host": "192.168.1.12",
+            "port": 3333,
+            "target_eth": 145,
+            "comments": "Trau 02",
+            "blynk_pin": "D3",
+            "maintain": false
+        },
+        {
+            "name": "Trau03",
+            "host": "192.168.1.13",
+            "port": 3333,
+            "target_eth": 145,
+            "comments": "Trau 03",
+            "blynk_pin": "D4",
+            "maintain": false
+        },
+        {
+            "name": "Trau04",
+            "host": "192.168.1.14",
+            "port": 3333,
+            "target_eth": 145,
+            "comments": "Trau 04",
+            "blynk_pin": "D5",
+            "maintain": false
+        },
+        {
+            "name": "Trau05",
+            "host": "192.168.1.15",
+            "port": 3333,
+            "target_eth": 145,
+            "comments": "Trau 05",
+            "blynk_pin": "D6",
+            "maintain": false
+        },
+        {
+            "name": "Trau06",
+            "host": "192.168.1.16",
+            "port": 3333,
+            "target_eth": 170,
+            "comments": "Trau 06",
+            "blynk_pin": "D7",
+            "maintain": false
+        },
+                {
+            "name": "Trau07",
+            "host": "192.168.1.17",
+            "port": 3333,
+            "target_eth": 170,
+            "comments": "Trau 07",
+            "blynk_pin": "",
+            "maintain": false
+        },
+        {
+            "name": "Trau08",
+            "host": "192.168.1.18",
+            "port": 3333,
+            "target_eth": 170,
+            "comments": "Trau 08",
+            "blynk_pin": "",
+            "maintain": false
+        }
+    ]
+}
